@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 sshagent (credentials: ['github-ssh-key]) {
-                    git 'git@github.com:mattgo327/gcp-tf-jenkins'
+                    git 'git@github.com:mattgo327/gcp-jenkins-project'
                 }
             }
         }
