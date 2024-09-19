@@ -8,10 +8,6 @@ pipeline {
                 }
             }
         }
-    }
-
-
-
 
         stage('Terraform Init') {
             steps {
@@ -43,4 +39,4 @@ pipeline {
             }
         }
     }
-
+}
